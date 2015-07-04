@@ -31,4 +31,15 @@ Aditionalls Scripts
 the scoreboard.sh script is a small bash script that calls the scoreboard every 5 sec.
 
 
- 
+recommended setup
+--------------------------
+
+one way to set this all up is the following:
+* setup 3 virtualbox machines with ubuntu server on it.
+* move the gameserver scripts to your 1st VM.
+* install requests via pip on your 1st VM
+* install an LAMPP stack on your 2nd and 3rd VM
+* move the index.php  on your 2nd and 3rd VM
+* set the network to host only network(don't forget that you can now only acces other VMs and your host in this mode, but not the internet. If you like to have internet just add another network device in your virtual machine with NAT)
+* assign the ips 192.168.59.103(1st VM), 192.168.59.104(2nd VM) and 192.168.59.103(3rd VM)
+* you should be ready to go now
