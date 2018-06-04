@@ -1,6 +1,6 @@
-attack & defanse CTF demo
+attack & defense CTF demo
 ==========================
-this project contains a minimalistic attack and defanse CTF setup with exectlly one service
+this project contains a minimalistic attack and defense CTF setup with exectlly one service
 
 Vulnbox
 -------------------------
