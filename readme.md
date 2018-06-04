@@ -7,7 +7,7 @@ Vulnbox
 
 To setup the Vulnbox just setup an linux VM with an LAMPP stack and place the index.php in the root directory.
 
-add the ffollowing table to the MYSQL database:
+add the following table to the MYSQL database and chenage the root password to "demo":
 ```sql
 CREATE TABLE "support"."support" (
 "id" text,
