@@ -7,6 +7,16 @@ Vulnbox
 
 To setup the Vulnbox just setup an linux VM with an LAMPP stack and place the index.php in the root directory.
 
+add the ffollowing table to the MYSQL database:
+```sql
+CREATE TABLE "support"."support" (
+"id" text,
+"Name" TEXT,
+"Message" TEXT
+);
+```
+
+
 the Service has 2 vulnabilties. One is a secret backdoor in line 51 to show that some services have unused functionality. The fix for this ist just to remove the functionallity. the next one is the missing prepared statments in line 65. This vulnability realy need to be fixed.
 
 Gameserver
